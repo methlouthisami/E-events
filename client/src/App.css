@@ -1,0 +1,21 @@
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+ 
+}
+
+a{
+
+  color:white;
+  text-decoration: none;
+}
+a :hover{
+  color: rgb(180, 176, 176);
+}
+@media only screen and (max-width:425){
+
+ h5{
+  color:red;
+    font-size:50px;
+  }
+}

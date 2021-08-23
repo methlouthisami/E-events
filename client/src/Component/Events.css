@@ -1,0 +1,145 @@
+.header{
+	margin-top: 100px;
+}
+
+
+.Jazz {
+  width: 1294px;
+  height: 500px;
+}
+.one {
+  margin-top: 50px;
+  margin-left:80px;
+}
+ 
+ li {
+   margin-top:-20px;
+   margin-left:35px;
+  list-style-type: none;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #1f1d1f;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	margin-bottom: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.card-body{
+	background-color: #1f1d1f;
+	color: #f6f6f6;
+}
+
+ul li a {
+  list-style-type: none;
+}
+.events-card {
+
+  border-left: black 2px;
+}
+.card-img-event {
+  width: 120px;
+}
+.Like{
+	width:30px
+}
+
+/*********************aside******************/
+.stick{
+	height:100%;
+	top:70px;
+	position: sticky;
+	
+	
+}
+
+
+.acceuil-cward{
+	margin-left: 100px;
+}
+
+.cward{
+	width:750px;
+}
+
+/***************************aside/***************************************/
+ .footerLi  {
+	margin-top: 10px;
+	display:flex;
+	flex-wrap: wrap;
+	gap:20px;
+	
+
+}
+.footerLi h5{
+	font-size: 18px;
+}
+footer{
+	border-top:solid 2px;
+margin-left:5px;
+padding-top: 10px;
+border-width: 3px;
+border: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+	.Jazz {
+		width:114%;
+		height:250px;
+	}
+.one h1{
+	font-size:35px;
+	text-align: center;
+}
+.one{
+	margin-right: auto;
+margin-left:-40px;
+gap:10px;
+}
+
+.card{
+	
+	margin-left:auto;
+	margin-left: auto;
+	width:400px;
+}
+.card-img-event{
+	width:350px;
+	height:250px;
+	text-align: center;
+
+}
+.events-card {
+ 
+ 
+	margin-left: 20px;
+}
+.stick{
+position:static;
+height:auto
+}
+.myButton{
+	margin: 0;
+}
+footer{
+	display: none;
+}
+}

@@ -1,0 +1,53 @@
+ ul li{
+    padding-bottom: 20px;
+  
+}
+.sidebar-header{
+            position: sticky;
+            top:70px;
+            margin-left:-70px;
+            height: 600px;
+            max-width: 300px;
+            background-Color:black;
+            color: white;
+            margin-top:50px;
+
+}
+#formul{
+   position:sticky;
+   top:70px;
+     background-color:#212121;
+     width:350px;
+     border-radius: 20px;
+     margin-left:100px;
+     height:400px;
+
+}
+#formul h2{
+   margin-left: 110px;
+   color:white;
+}
+#formul input{
+      justify-content: center;
+      padding-top: 20px;
+      margin-left:50px;
+      border-radius: 10px;
+      text-align: center;
+}
+
+.getcards{
+      margin-left:100px;
+      width:350px;
+      margin-bottom: 50px;
+
+}
+.getcards img{
+      width:350px
+}
+.getcards > .card-title{
+   font-size: 30px;
+text-align: center;}
+.getcards > .card-body{
+   text-align: center;
+   font-size:25px;
+}
